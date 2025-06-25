@@ -1,0 +1,1 @@
+C:\Users\BISHOP\maestro_repos\assignments\rust-solana-classes\assignments\ep01_intro_to_rust\solmaestro\target\debug\solmaestro.exe: C:\Users\BISHOP\maestro_repos\assignments\rust-solana-classes\assignments\ep01_intro_to_rust\solmaestro\src\main.rs
