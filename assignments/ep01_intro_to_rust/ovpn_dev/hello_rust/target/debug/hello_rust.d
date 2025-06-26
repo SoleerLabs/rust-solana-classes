@@ -1,1 +1,0 @@
-/workspaces/rust-solana-classes/assignments/ep01_intro_to_rust/ovpn_dev/hello_rust/target/debug/hello_rust: /workspaces/rust-solana-classes/assignments/ep01_intro_to_rust/ovpn_dev/hello_rust/src/main.rs
