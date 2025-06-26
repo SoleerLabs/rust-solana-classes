@@ -81,28 +81,28 @@ fn get_operation_choice() -> u32 {
 
 fn perform_multiplication(user_num: f64, our_num: i32) {
     let result = user_num * our_num as f64;
-    println!("\n🔢 MULTIPLICATION RESULT:");
+    println!("\n MULTIPLICATION RESULT:");
     println!("{} × {} = {}", user_num, our_num, result);
     suggest_operation("multiplication", result);
 }
 
 fn perform_addition(user_num: f64, our_num: i32) {
     let result = user_num + our_num as f64;
-    println!("\n➕ ADDITION RESULT:");
+    println!("\nADDITION RESULT:");
     println!("{} + {} = {}", user_num, our_num, result);
     suggest_operation("addition", result);
 }
 
 fn perform_subtraction(user_num: f64, our_num: i32) {
     let result = user_num - our_num as f64;
-    println!("\n➖ SUBTRACTION RESULT:");
+    println!("\nSUBTRACTION RESULT:");
     println!("{} - {} = {}", user_num, our_num, result);
     suggest_operation("subtraction", result);
 }
 
 fn perform_division(user_num: f64, our_num: i32) {
     if our_num == 0 {
-        println!("❌ Error: Cannot divide by zero!");
+        println!("Error: Cannot divide by zero!");
         return;
     }
     
