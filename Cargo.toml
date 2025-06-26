@@ -1,0 +1,12 @@
+# Rust workspaces require that every path listed under [workspace].members must point to a valid crate — which means:
+
+# It must be a folder that contains a Cargo.toml file.
+
+[workspace]
+members = [
+  "assignments/ep01_intro_to_rust/yuhcee",
+  
+  # If you're not ready to work on them yet, just comment them out:
+  # "assignments/ep01_intro_to_rust/charles",
+  # "assignments/ep02_ownership/charles"
+]
