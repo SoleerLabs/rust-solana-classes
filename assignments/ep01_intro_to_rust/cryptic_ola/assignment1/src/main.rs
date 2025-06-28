@@ -30,9 +30,3 @@ fn substracted(a: i32, b: i32) -> i32 {
     println!("Your substracted number is {}",  substracted_user_number);
     substracted_user_number
 }
-
-// - Ask user to give you a random number 
-// - get the number, then do the following
-// - generate your own random number form 1k - 5k 
-// - multiple your to theirs
-// - then show result
