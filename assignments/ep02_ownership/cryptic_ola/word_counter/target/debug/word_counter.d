@@ -1,0 +1,1 @@
+/Users/ola_199x/Desktop/Dev/rust-solana-classes/assignments/ep02_ownership/cryptic_ola/word_counter/target/debug/word_counter: /Users/ola_199x/Desktop/Dev/rust-solana-classes/assignments/ep02_ownership/cryptic_ola/word_counter/src/main.rs
