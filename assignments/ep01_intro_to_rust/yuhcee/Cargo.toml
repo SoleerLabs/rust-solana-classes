@@ -1,0 +1,16 @@
+[package]
+name = "yuhcee_ep01_intro_to_rust"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "yuhcee"
+path = "src/main.rs"
+
+[lib]
+name = "yuhcee"
+path = "src/lib.rs"
+
+[dependencies]
+rand = "0.9.1"
+
