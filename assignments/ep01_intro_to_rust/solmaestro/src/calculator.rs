@@ -52,5 +52,5 @@ pub fn division () {
 
     let number: i64 = user_number.trim().parse().expect("Invalid number");
 
-    println!("{} / {} is = {}", random_number, number, random_number / number);
+    println!("{} / {} is = {}\n", random_number, number, random_number / number);
 }

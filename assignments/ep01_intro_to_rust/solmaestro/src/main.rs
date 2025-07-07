@@ -1,5 +1,8 @@
 mod calculator;
-use crate::calculator::{subtraction, multiplication, division, addition};
+mod fizzbuzz;
+
+use calculator::*;
+use fizzbuzz::*;
 
 fn main() {
     println!("Hello! Welcome to Rust random number calculator");
@@ -8,5 +11,7 @@ fn main() {
     addition();
     multiplication();
     division();
+
+    fizzbuzz();
 
 }
