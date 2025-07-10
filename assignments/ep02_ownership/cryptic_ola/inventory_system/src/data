@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MacBook Pro",
+      "price": 1999.99,
+      "stock": 8
+    },
+    {
+      "id": 2,
+      "name": "AirPods",
+      "price": 199.99,
+      "stock": 3
+    },
+    {
+      "id": 3,
+      "name": "iPhone 14",
+      "price": 899.99,
+      "stock": 0
+    }
+  ],
+  "orders": [
+    {
+      "id": 101,
+      "customer_name": "Alice Johnson",
+      "product_id": 1,
+      "quantity": 2,
+      "status": "Shipped"
+    },
+    {
+      "id": 102,
+      "customer_name": "Bob Smith",
+      "product_id": 2,
+      "quantity": 5,
+      "status": "Cancelled"
+    },
+    {
+      "id": 103,
+      "customer_name": "Charlie Daniels",
+      "product_id": 3,
+      "quantity": 1,
+      "status": "Pending"
+    }
+  ],
+  "next_order_id": 104
+}
